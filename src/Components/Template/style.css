@@ -1,0 +1,590 @@
+.Main2{
+    display: flex;
+    height: 790px; 
+    border: none
+
+}
+h4{
+    margin-left: 1vw;
+}
+.sidebar{
+    display: flex;
+    background: #FBFBFB;
+    flex:1;
+    border: none;
+}
+ul{
+    margin-right: 8px;
+}
+
+li{  
+    list-style: none;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+span{
+    color: #FBFBFB;;
+}
+
+
+.col1{
+    flex:1;
+    border: 1px solid black;
+}
+.col2{
+    flex:1;
+    border: 1px solid black;
+}
+.col3{
+    flex:1;
+    border: 1px solid black;
+}
+
+
+.sidebutton{
+    width: 90px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: var(--mainColor);
+    border-radius: 6px;
+    cursor: pointer;
+}
+#dollor{
+    color: #46A358;;
+}
+
+.sidebutton:active{
+    transform: scale(.97);
+}
+
+.contents{
+    margin-left: 35px;
+}
+
+.words{
+    flex: 3;
+}
+.numbers{
+    
+    flex: 1
+}
+
+.smth{
+    color: #FBFBFB;
+}
+
+.numbers2{
+    display: flex;
+    margin-top: 35vh;
+    align-items: flex-end;
+
+}
+
+.word2{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+li:hover{
+    color: var(--mainColor)
+
+}
+li:active{
+    transform: scale(0.97);
+}
+
+
+
+/* Templates goes ON */
+
+.templates{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    flex:3;
+    display: grid;
+    
+    /* grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr, 1fr,1fr, 1fr, 1fr, 1fr; */
+    
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 60px;
+}
+
+.item{
+    border: none
+    
+}
+
+.item1{
+    grid-column: 1/2;
+    /* grid-row: 1/2 */
+}
+
+.item2{
+    grid-column: 2/3;
+    /* grid-row: 1/2 */
+}
+
+.item3{
+    grid-column: 3/4;
+    /* grid-row: 1/2 */
+}
+
+.item4{
+    grid-column: 1/2;
+    /* grid-row: 2/9 */
+}
+
+.item5{
+    grid-column: 2/3;
+    /* grid-row: 2/9 */
+}
+
+.item6{
+    grid-column: 3/4;
+    /* grid-row: 2/9 */
+}
+.item7{
+    grid-column: 1/2;
+    /* grid-row: 9/16 */
+    
+}
+
+.item8{
+    grid-column: 2/3;
+    /* grid-row: 9/16 */
+}
+
+.item9{
+    grid-column: 3/4;
+    /* grid-row: 9/16 */
+}
+
+.item10{
+    grid-column: 1/2;
+    /* grid-row: 9/16 */
+    
+}
+
+.item11{
+    grid-column: 2/3;
+    /* grid-row: 9/16 */
+}
+
+.item12{
+    grid-column: 3/4;
+    /* grid-row: 9/16 */
+}
+
+
+
+.item1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+    width: span 1;
+    
+}
+.item1 > div:hover{
+    cursor: pointer;
+    color: var(--mainColor);
+}
+.item1 > div:active{
+    transform: scale(0.97);
+}
+
+
+.item3{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.item3 > div{
+    font-family: Cera Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 16px;
+
+
+
+color: #3D3D3D;
+}
+.item3 > select{
+    border: none;
+    margin-left: 3px;
+}
+    
+.item3 > select > option{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+/* .item4,.item5,.item6,.item7,.item8,.item9{
+    background: #FBFBFB;
+} */
+
+.item4 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m1.png');
+    background-repeat: no-repeat;
+    background-color: #FBFBFB;
+}
+
+.item4 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item4 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item4 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+.item5 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m2.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item5 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item5 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item5 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+.item6 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m3.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item6 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item6 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item6 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.item7 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m4.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item7 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item7 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item7 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+.item8 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m5.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item8 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item8 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item8 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.item9 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m6.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item9 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item9 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item9 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+.item10 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m7.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item10 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item10 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item10 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.item11 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m8.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item11 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item11 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item11 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.item12 > .picture{
+    width: 258px;
+    height: 300px;
+    background-image: url('../../assets/imgs/m9.png');
+    background-repeat: no-repeat;
+
+}   
+
+.item12 > .name{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.item12 > .price{
+    color: var(--mainColor);
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.item12 > div{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.item > .picture:hover{
+    cursor: pointer;
+    border-top: 2px solid var(--mainColor);
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+

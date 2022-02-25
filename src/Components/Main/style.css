@@ -1,0 +1,102 @@
+.main{
+    display: flex;
+    height: 450px;
+    margin-top: 6px;
+    background-color: whitesmoke;
+}
+.left{
+    position: relative;
+    flex:1;
+    border: none;
+}
+
+.right{
+    
+    display: flex;
+    flex: 1;
+    border: none;
+    /* background-image: url('../../assets/imgs/m4.png'); */
+}
+
+.smallimg{
+    
+    flex: 1;
+    background-image: url('../../assets/imgs/m4.png');
+    background-repeat: no-repeat;
+   background-size: 90%;
+   background-position: 30px 220px;
+   
+}
+
+.bigimg{
+   flex: 2;
+   background-image: url('../../assets/imgs/m4.png');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-position: center;
+
+}
+
+
+.welcome{
+    position: absolute;
+    font-size: 25px;
+    top: 20%;
+    left: 3%;
+
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* line-height: 20px; */
+    /* identical to box height, or 114% */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+color: #3D3D3D;
+}
+
+.offer{
+    position: absolute;
+    font-size: 70px;
+    top: 25%;
+    left: 3%;
+    font-weight: 700;
+    color:#3D3D3D
+}
+.planet{
+    color: #46A358;
+}
+
+.description{
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    color: #727272;
+    position: absolute;
+    font-size: 18px;
+    top: 68%;
+    left: 3%
+}
+
+
+.rightButton{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 3%;
+    top: 84%;
+    border: none;
+    color: white;
+    background: var(--mainColor);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.rightButton:active{
+    transform: scale(.97);
+}
+

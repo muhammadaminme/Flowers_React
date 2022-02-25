@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    border-bottom: 0.3px solid #888;
+}
+
+.wrapper{
+    flex: 1;
+    
+}
+
+.con1{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: green;
+    font-family: bold;
+    cursor: pointer;
+}
+
+.con1 > .logo{
+    margin-right: 6px; 
+}
+
+.con2{
+    display: flex;
+    justify-content: space-around;
+    font-size: bold;
+}
+
+.con2 > div{
+    display: flex;
+    align-items: center;
+    font-family: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.con2 > div:hover{
+    color: var(--mainColor)
+}
+.con2 > div:active{
+    transform: scale(0.97);
+}
+
+
+.con2 > div:hover{
+    
+    border-bottom: 3px solid var(--mainColor);
+    height: 68px;
+   
+}
+
+.con3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.con3 > .btn{
+    width:100px;
+    height:35px;
+    border:none;
+    color: white;
+    background-color: var(--mainColor);
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+.con3> .btn:active{
+    transform: scale(0.97);
+}
+
+.con3 > .icon-wallet{
+    margin: 0 30px;
+}
+
+
+.icon{
+    stroke: var(--mainColor);
+    fill: var(--mainColor)
+}
